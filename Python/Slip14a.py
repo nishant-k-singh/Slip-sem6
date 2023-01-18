@@ -1,0 +1,6 @@
+t=(('44', '444'), ('1516', '45')) 
+print("Original tuple")
+print(t)
+t_int=tuple((int(x[0]),int(x[1])) for x in t)
+print("New tuple")
+print(t_int)
